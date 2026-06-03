@@ -1,4 +1,4 @@
-// Write a program to find with fibonacci term.
+// Write a program to find nth fibonacci term.
 #include <stdio.h>
 int main() {
 int n, i;
