@@ -1,13 +1,14 @@
 // write a program to print factor of a number.
 #include <stdio.h>
 int main() {
-int n, i;
-int factorial = 1;
+int num, i;
  printf("Enter a number: ");
- scanf("%d", &n);
-for(i = 1; i <= n; i++) {
- factorial *= i;
-}
-printf("Factorial of %d = %d\n", n, factorial);
+  scanf("%d", &num);
+ printf("Factors of %d are: ", num);
+for(i = 1; i <= num; i++) {
+  if(num % i == 0) {
+   printf("%d ", i);
+    }
+    }
 return 0;
 }
